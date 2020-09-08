@@ -2,12 +2,12 @@
 convert midi file to wav using python
 
 ## Requirements
-numpy
-pyaudio
-fluidsynth
-sounddevice
-pretty_midi
-scipy
+numpy\n
+pyaudio\n
+fluidsynth\n
+sounddevice\n
+pretty_midi\n
+scipy\n
 pydub
 
 ## Usage
