@@ -1,5 +1,5 @@
 # Miditowav_Honglee
-convert midi file to wav using python
+convert midi file to wav using python 2.7(32bit)
 
 ## Requirements
 numpy 
@@ -15,6 +15,8 @@ pretty_midi
 scipy
 
 pydub
+
+
 
 ## Usage
 1.make your own directory to save instrumential files and input files. Each one's name should be 'Out' and 'Music'
