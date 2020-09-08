@@ -1,5 +1,5 @@
 # Miditowav_Honglee
-convert midi file to wav using python 2.7(32bit)
+convert midi file to wav using python 2.7 (32bit)
 
 ## Requirements
 numpy 
