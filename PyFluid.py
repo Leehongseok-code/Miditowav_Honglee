@@ -77,8 +77,8 @@ class wavconverter:
         # Initial silence is 1 second
         #s = numpy.append(s, fl.get_samples(44100 * 1))
         #fl.start('dsound')
-        sfid = fl.sfload(r'C:\Users\User\Desktop\FluidR3_GM\yk.sf2')
-        sfid = fl.sfload(sf)
+        #sfid = fl.sfload(r'C:\Users\User\Desktop\FluidR3_GM\yk.sf2')
+        #sfid = fl.sfload(sf)
         #selecting instrumnet
         fl.program_select(0, sfid, 0, inst_index)
 
@@ -92,9 +92,11 @@ class wavconverter:
 
         instrument=mid.instruments[inst]
         print instrument.is_drum
+        '''
         if instrument.is_drum==True:
             sfid=fl.sfload('C:\Users\User\Desktop\FluidR3_GM\FluidR3_GM.sf2')
             fl.program_select(10, sfid, 0, 35)
+        '''
 
         startarr=[]
         endarr=[]
