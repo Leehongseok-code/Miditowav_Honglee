@@ -33,6 +33,8 @@ https://en.wikipedia.org/wiki/General_MIDI
 ## Example
     from import  PyFluid import wavconverter
     wavcon=wavconverter()
-    wavcon.midicomb('./Music/hotcandy.mid',['C:\Users\User\Desktop\FluidR3_GM\FluidR3_GM.sf2','C:\Users\User\Desktop\FluidR3_GM\FluidR3_GM.sf2'
-                                ])
+    wavcon.midicomb('./Music/hotcandy.mid',['C:\Users\User\Desktop\FluidR3_GM\FluidR3_GM.sf2','C:\Users\User\Desktop\FluidR3_GM\FluidR3_GM.sf2'])
+    
+## References
+fluidsynth
     
